@@ -10,13 +10,6 @@ The goal is to provide a **predictive model** that can estimate house prices for
 ## Dataset
 - Dataset used: **House Sales in King County, USA**  
 - Source: [Kaggle Dataset](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)  
-- File: `kc_house_data.csv`  
-- Features include:
-  - `sqft_living` – Living area in square feet  
-  - `bedrooms` – Number of bedrooms  
-  - `bathrooms` – Number of bathrooms  
-  - `floors` – Number of floors  
-  - `price` – Target variable (house price)
 
 ---
 
