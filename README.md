@@ -13,54 +13,6 @@ The goal is to provide a **predictive model** that can estimate house prices for
 
 ---
 
-## Project Steps
-
-### 1. Data Collection
-- Downloaded dataset from Kaggle.  
-**Why:** Machine Learning models need real-world data to learn patterns.
-
-### 2. Data Exploration (EDA)
-- Inspected structure, summary statistics, and missing values.
-- Visualized distributions and correlations.  
-**Why:** To understand relationships, identify patterns, and spot outliers.
-
-### 3. Data Cleaning and Feature Selection
-- Removed irrelevant columns (`id`, `date`)  
-- Selected important features (`sqft_living`, `bedrooms`, `bathrooms`, `floors`)  
-**Why:** Focus on meaningful data and prevent noise from affecting model performance.
-
-### 4. Split Dataset
-- Divided data into **training set (80%)** and **testing set (20%)**  
-**Why:** To train the model and test on unseen data for generalization.
-
-### 5. Model Training
-- Used **Linear Regression** to train the model  
-**Why:** Model learns relationships between house features and prices.
-
-### 6. Model Prediction
-- Generated predictions on the test set  
-**Why:** Evaluate how well the model can predict new data.
-
-### 7. Model Evaluation
-- Metrics used:  
-  - Mean Squared Error (MSE)  
-  - R² Score  
-**Why:** To measure accuracy and performance of the model.
-
-### 8. Visualization
-- Plotted Actual vs Predicted prices using scatter plots  
-**Why:** Quick visual check of model performance.
-
-### 9. Predict Custom Input
-- Tested the model with new example houses  
-**Why:** Demonstrates real-world application.
-
-### 10. Save Model (Optional)
-- Saved trained model using `joblib`  
-**Why:** Makes it reusable for deployment or future predictions.
-
----
-
 ## How to Run
 1. Open the project in **Google Colab** or Jupyter Notebook.  
 2. Upload `kc_house_data.csv` to the notebook.  
